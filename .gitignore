@@ -1,0 +1,7 @@
+.envrc*
+beginners_terraform_for_aws/
+ic-terraform-for-aws/
+less*/
+terraform.tfstate.backup
+terraform.tfstate
+.terraform/
