@@ -7,8 +7,8 @@ resource "aws_vpc" "tabiya_vpc" {
     # タグを設定
     tags = {
         # Name は VPC の名前
-        Name    = "TabiyaVpc"
+        Name    = "Tabiya-VPC"
         # 任意のタグ項目と値
-        Dev     = "Dev-tag"
+        Dev     = "Dev-Tag"
     }
 }
