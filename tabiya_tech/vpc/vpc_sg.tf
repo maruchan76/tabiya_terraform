@@ -24,7 +24,7 @@ resource "aws_security_group_rule" "tabiya_ingress_sg_pub_22" {
     from_port = "22"
     to_port = "22"
     protocol = "tcp"
-    cidr_blocks = ["126.54.176.130/32"]
+    cidr_blocks = ["XXX.XXX.XXX.XXX/32"]
     security_group_id = aws_security_group.tabiya_pub_sg.id
 }
 
@@ -33,7 +33,7 @@ resource "aws_security_group_rule" "tabiya_ingress_sg_pub_80" {
     from_port = "80"
     to_port = "80"
     protocol = "tcp"
-    cidr_blocks = ["126.54.176.130/32"]
+    cidr_blocks = ["XXX.XXX.XXX.XXX/32"]
     security_group_id = aws_security_group.tabiya_pub_sg.id
 }
 
